@@ -3,11 +3,19 @@ export  function runTasks(): void {
   var person_name = "Sherazi";
 
   console.log("Hello " + person_name + "!, Are you ready for the next task?");
-
+  var person2_name = "Sheraz Ahmad";
   //Task 3 - Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
-  console.log("Lower Case: " + person_name.toLowerCase());
-  console.log("Upper Case: " + person_name.toUpperCase());
-  console.log("Title Case: " + person_name.toLocaleUpperCase());
+  console.log("Lower Case: " + person2_name.toLowerCase());
+  console.log("Upper Case: " + person2_name.toUpperCase());
+  // title case 
+  var titleCase = person2_name.split(" ");
+  var titleCaseName = "";
+  for (var i = 0; i < titleCase.length; i++) {
+    titleCaseName += titleCase[i].charAt(0).toUpperCase() + titleCase[i].slice(1) + " ";
+  }
+  console.log("Title Case: " + titleCaseName);
+
+
 
   // Task 4 - Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author.
   console.log(
