@@ -7,15 +7,14 @@ export  function runTasks(): void {
   //Task 3 - Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
   console.log("Lower Case: " + person2_name.toLowerCase());
   console.log("Upper Case: " + person2_name.toUpperCase());
-  // title case 
+  // title case
   var titleCase = person2_name.split(" ");
   var titleCaseName = "";
   for (var i = 0; i < titleCase.length; i++) {
-    titleCaseName += titleCase[i].charAt(0).toUpperCase() + titleCase[i].slice(1) + " ";
+    titleCaseName +=
+      titleCase[i].charAt(0).toUpperCase() + titleCase[i].slice(1) + " ";
   }
   console.log("Title Case: " + titleCaseName);
-
-
 
   // Task 4 - Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author.
   console.log(
@@ -35,11 +34,23 @@ export  function runTasks(): void {
   console.log("Before Striping", person_name);
   console.log("After Stripping", person_name.trim());
 
-  // Task 7,8- Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8.
+  // Task 7- Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8.
   console.log(5 + 3);
   console.log(10 - 2);
   console.log(4 * 2);
   console.log(16 / 2);
+
+  //Task 8 - You should create four lines that look like this:
+  // console.log(5 + 3).
+  console.log("---------------------------------");
+  console.log(5 + 3);
+  console.log("---------------------------------");
+  console.log(12 - 4);
+  console.log("---------------------------------");
+  console.log(4 * 2);
+  console.log("---------------------------------");
+  console.log(16 / 2);
+  console.log("---------------------------------");
 
   // Task 9 - Favorite Number: Store your favorite number in a variable.
   // Then, using that variable, create a message that reveals your favorite number.
@@ -47,5 +58,20 @@ export  function runTasks(): void {
   var favorite_number = 7;
   console.log("My favorite number is " + favorite_number);
 
-  // Task 10 - already done
+  // Task 10 - Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each
+
+  //Sheraz Ahmad   15 Nov, 2023 
+  // This function is used to add two numbers
+  sum(5, 3);
+  
+  //Sheraz Ahmad   15 Nov, 2023
+  // This function is used to subtract two numbers
+  sub(5, 3);
+}
+
+function sum(a: number, b: number): number {
+  return a + b;
+}
+function sub(a: number, b: number): number {
+  return a - b;
 }
