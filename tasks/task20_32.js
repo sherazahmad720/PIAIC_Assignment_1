@@ -2,21 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.runTasks = void 0;
 function runTasks() {
-    var places = ["Naran Kagan", "Madina", "Karachi", "Dubai", "Kashmir"];
-    console.log("Sorted Array: ", places.slice().sort());
-    console.log("Original Array: ", places);
-    console.log("Reverse Sorted Array: ", places.slice().sort().reverse());
-    console.log("Original Array: ", places);
-    // Reverse the order of your list. Print the array to show that its order has changed.
-    places.reverse();
-    console.log("Original Array after reverse: ", places);
-    places.reverse();
-    console.log("Original Array after reverse again: ", places);
-    places.sort();
-    console.log("Original Array after sort: ", places);
-    places.sort().reverse();
-    console.log("Original Array after sort and reverse: ", places);
-    //Task 19 - Unclear Question
     //Task 20 - Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities,
     // languages, or anything else you’d like. Write a program that creates a list containing these items.
     var mountains = ["K2", "Everest", "Nanga Parbat", "Broad Peak"];
@@ -39,6 +24,18 @@ function runTasks() {
     //Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
     // console.log(mountains[9]);
     //Task 23 - Conditional Tests:
+    let mobile = "iphone";
+    console.log(mobile == "iphone" ? true : false);
+    console.log(mobile == "samsung" ? true : false);
+    console.log(mobile != "nokia" ? true : false);
+    console.log(mobile != "iphone" ? true : false);
+    let obtainedMarks = 80;
+    console.log(obtainedMarks >= 80 ? true : false);
+    console.log(obtainedMarks == 90 ? true : false);
+    console.log(obtainedMarks > 70 ? true : false);
+    console.log(obtainedMarks <= 70 ? true : false);
+    console.log(obtainedMarks <= 80 ? true : false);
+    console.log(obtainedMarks != 80 ? true : false);
     let car = "subaru";
     console.log("Is car == 'subaru'? I predict True.");
     console.log(car == "subaru");
@@ -93,6 +90,15 @@ function runTasks() {
     console.log(friends.indexOf("Sheheryar") != -1);
     console.log("is Sherazi is in friends list?");
     console.log(friends.indexOf("Sherazi") != -1);
+    var marks = 80;
+    console.log("is marks is greater than or Equalt to 90?");
+    console.log(marks >= 90);
+    console.log("is marks is greater than or Equalt to 80?");
+    console.log(marks >= 80);
+    console.log("is marks is greater than or Equalt to 70?");
+    console.log(marks >= 70);
+    console.log("is marks is less than or Equalt to 50?");
+    console.log(marks <= 50);
     // Task 25 - Alien Colors #1: Imagine an alien was just shot down in a game.
     //Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
     var alien_color = "green";

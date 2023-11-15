@@ -71,4 +71,23 @@ export function runTasks(): void {
     people.pop();
   }
   console.log(people);
+
+  //Task 18 :Seeing the World: Think of at least five places in the world you’d like to visit.
+  var places = ["Naran Kagan", "Madina", "Karachi", "Dubai", "Kashmir"];
+  console.log("Sorted Array: ", places.slice().sort());
+  console.log("Original Array: ", places);
+  console.log("Reverse Sorted Array: ", places.slice().sort().reverse());
+  console.log("Original Array: ", places);
+  // Reverse the order of your list. Print the array to show that its order has changed.
+  places.reverse();
+  console.log("Original Array after reverse: ", places);
+  places.reverse();
+  console.log("Original Array after reverse again: ", places);
+  places.sort();
+  console.log("Original Array after sort: ", places);
+  places.sort().reverse();
+  console.log("Original Array after sort and reverse: ", places);
+  //Task 19 -Dinner Guests: Working with one of the programs from Exercises 14 through 18,
+  // print a message indicating the number of people you are inviting to dinner.
+  console.log("Number of people invited to dinner: ", places.length);
 }

@@ -24,12 +24,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const task1_10 = __importStar(require("./tasks/task1_10"));
-const task11_17 = __importStar(require("./tasks/task11_17"));
-const task18_32 = __importStar(require("./tasks/task18_32"));
+const task11_19 = __importStar(require("./tasks/task11_19"));
+const task20_32 = __importStar(require("./tasks/task20_32"));
 const task33_35 = __importStar(require("./tasks/task33_35"));
 const task36_45 = __importStar(require("./tasks/task36_45"));
 task1_10.runTasks();
-task11_17.runTasks();
-task18_32.runTasks();
+task11_19.runTasks();
+task20_32.runTasks();
 task33_35.runTasks();
 task36_45.runTasks();

@@ -1,21 +1,4 @@
 export function runTasks(): void {
-  var places = ["Naran Kagan", "Madina", "Karachi", "Dubai", "Kashmir"];
-  console.log("Sorted Array: ", places.slice().sort());
-  console.log("Original Array: ", places);
-  console.log("Reverse Sorted Array: ", places.slice().sort().reverse());
-  console.log("Original Array: ", places);
-  // Reverse the order of your list. Print the array to show that its order has changed.
-  places.reverse();
-  console.log("Original Array after reverse: ", places);
-  places.reverse();
-  console.log("Original Array after reverse again: ", places);
-  places.sort();
-  console.log("Original Array after sort: ", places);
-  places.sort().reverse();
-  console.log("Original Array after sort and reverse: ", places);
-
-  //Task 19 - Unclear Question
-
   //Task 20 - Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities,
   // languages, or anything else you’d like. Write a program that creates a list containing these items.
   var mountains = ["K2", "Everest", "Nanga Parbat", "Broad Peak"];
@@ -41,6 +24,18 @@ export function runTasks(): void {
   // console.log(mountains[9]);
 
   //Task 23 - Conditional Tests:
+  let mobile = "iphone";
+  console.log(mobile == "iphone" ? true : false);
+  console.log(mobile == "samsung" ? true : false);
+  console.log(mobile != "nokia" ? true : false);
+  console.log(mobile != "iphone" ? true : false);
+  let obtainedMarks = 80;
+  console.log(obtainedMarks >= 80 ? true : false);
+  console.log(obtainedMarks == 90 ? true : false);
+  console.log(obtainedMarks > 70 ? true : false);
+  console.log(obtainedMarks <= 70 ? true : false);
+  console.log(obtainedMarks <= 80 ? true : false);
+  console.log(obtainedMarks != 80 ? true : false);
   let car = "subaru";
   console.log("Is car == 'subaru'? I predict True.");
   console.log(car == "subaru");
@@ -96,7 +91,16 @@ export function runTasks(): void {
   console.log("is Sheheryar is in friends list?");
   console.log(friends.indexOf("Sheheryar") != -1);
   console.log("is Sherazi is in friends list?");
-  console.log(friends.indexOf("Sherazi")!=-1);
+  console.log(friends.indexOf("Sherazi") != -1);
+  var marks = 80;
+  console.log("is marks is greater than or Equalt to 90?");
+  console.log(marks >= 90);
+  console.log("is marks is greater than or Equalt to 80?");
+  console.log(marks >= 80);
+  console.log("is marks is greater than or Equalt to 70?");
+  console.log(marks >= 70);
+  console.log("is marks is less than or Equalt to 50?");
+  console.log(marks <= 50);
 
   // Task 25 - Alien Colors #1: Imagine an alien was just shot down in a game.
   //Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
@@ -166,19 +170,19 @@ export function runTasks(): void {
   // Task 29 - Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent
   //if statements that check for certain fruits in your array.
   var favorite_fruits = ["Apple", "Banana", "Mango"];
-  if (favorite_fruits.indexOf("Apple")!=-1) {
+  if (favorite_fruits.indexOf("Apple") != -1) {
     console.log("You really like apples");
   }
-  if (favorite_fruits.indexOf("Banana")!=-1) {
+  if (favorite_fruits.indexOf("Banana") != -1) {
     console.log("You really like bananas");
   }
-  if (favorite_fruits.indexOf("Mango")!=-1) {
+  if (favorite_fruits.indexOf("Mango") != -1) {
     console.log("You really like mangoes");
   }
-  if (favorite_fruits.indexOf("Orange")!=-1) {
+  if (favorite_fruits.indexOf("Orange") != -1) {
     console.log("You really like oranges");
   }
-  if (favorite_fruits.indexOf("Grapes")!=-1) {
+  if (favorite_fruits.indexOf("Grapes") != -1) {
     console.log("You really like grapes");
   }
 
@@ -213,7 +217,7 @@ export function runTasks(): void {
   ];
   var new_users = ["Sherazi", "Hassan", "Danish", "hassan", "Zulqarnain"];
   new_users.forEach((new_user) => {
-    if (current_users.indexOf(new_user)!=-1) {
+    if (current_users.indexOf(new_user) != -1) {
       console.log("Sorry " + new_user + ", that name is taken");
     } else {
       console.log("Great, " + new_user + " is still available");
