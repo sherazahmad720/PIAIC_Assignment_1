@@ -60,8 +60,8 @@ function runTasks() {
     console.log(people);
     //Task 18 :Seeing the World: Think of at least five places in the world you’d like to visit.
     var places = ["Naran Kagan", "Madina", "Karachi", "Dubai", "Kashmir"];
-    console.log("Sorted Array: ", places.slice().sort());
     console.log("Original Array: ", places);
+    console.log("Sorted Array: ", places.slice().sort());
     console.log("Reverse Sorted Array: ", places.slice().sort().reverse());
     console.log("Original Array: ", places);
     // Reverse the order of your list. Print the array to show that its order has changed.
